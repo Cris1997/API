@@ -1,0 +1,167 @@
+item {
+	id: 1
+	name: 'reservado cabernet sauvignon'
+}
+
+item {
+	id: 2
+	name: 'reservado merlot'
+}
+
+item {
+	id: 3
+	name: 'reservado carmenere'
+}
+
+item {
+	id: 4
+	name: 'reservado malbec'
+}
+
+item {
+	id: 5
+	name: 'reservado shiraz'
+}
+
+item {
+	id: 6
+	name: 'reservado rose'
+}
+
+item {
+	id: 7
+	name: 'reservado white zinfandel'
+}
+
+item {
+	id: 8
+	name: 'reservado sauvignon blanc'
+}
+
+item {
+	id: 9
+	name: 'frontera merlot'
+}
+
+item {
+	id: 10
+	name: 'frontera carmenere'
+}
+
+item {
+	id: 11
+	name: 'frontera cabernet sauvignon'
+}
+
+item {
+	id: 12
+	name: 'frontera chardonnay'
+}
+
+item {
+	id: 13
+	name: 'casillero del diablo red blend'
+}
+
+item {
+	id: 14
+	name: 'casillero del diablo cabernet sauvignon'
+}
+
+item {
+	id: 15
+	name: 'casillero del diablo merlot'
+}
+
+item {
+	id: 16
+	name: 'casillero del diablo devils collection rojo'
+}
+
+item {
+	id: 17
+	name: 'casillero del diablo chardonnay'
+}
+
+item {
+	id: 18
+	name: 'casillero del diablo pinot noir'
+}
+
+item {
+	id: 19
+	name: 'casillero del diablo carmenere'
+}
+
+item {
+	id: 20
+	name: 'casillero del diablo devils collection verde'
+}
+
+item {
+	id: 21
+	name: 'casillero del diablo malbec'
+}
+
+item {
+	id: 22
+	name: 'marques de casa concha merlot'
+}
+
+item {
+	id: 23
+	name: 'marques de casa concha carmenere'
+}
+
+item {
+	id: 24
+	name: 'marques de casa concha chardonnay'
+}
+
+item {
+	id: 25
+	name: 'trio merlot'
+}
+
+item {
+	id: 26
+	name: 'trio chardonnay'
+}
+
+item {
+	id: 27
+	name: 'trio cabernet sauvignon'
+}
+
+item {
+	id: 28
+	name: 'brut'
+}
+
+
+item {
+	id: 29
+	name: 'diablo dark red'
+}
+
+item {
+	id: 30
+	name: 'casillero del diablo rose'
+}
+
+item {
+	id: 31
+	name: 'casillero del diablo sauvignon blanc'
+}
+
+item {
+	id: 32
+	name: 'casillero del diablo reserva privada cabernet sauvignon'
+}
+
+item {
+	id: 33
+	name: 'reservado sweet red'
+}
+
+
