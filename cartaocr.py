@@ -15,9 +15,13 @@ def gray_scale_opencv(imagen):
     gray = cv2.cvtColor(imagen, cv2.COLOR_RGB2GRAY)
     return gray
 
+#Este método es llamado desde la API. Recibe como argumento la ruta donde se encuentra la imagen
 def main_ocr(path):
-   #print("Pre-procesamiento de imágenes")
+   #Cargar la imagen
    imagen = cv2.imread(path)
+   #Convertir la imagen a escala de grises
    image_gray = gray_scale_opencv(imagen)
+   #Ingresar la fotografia al OCR y obtener su texto
    text = ocr_function(image_gray)
+   #regresar el texto a la funcion donde fue llamada.
    return text

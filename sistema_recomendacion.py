@@ -82,13 +82,13 @@ def generar_descriptor(vinos_df,aspecto):
 #Funcion ha ser llamada por la API para entregar las recomendaciones al cliente
 def obtener_recomendaciones(id):
     #Leer los descriptores
-    desc_variedad = pd.read_csv('variedad.csv', index_col=0).to_numpy()
-    desc_region = pd.read_csv('region.csv',  index_col=0).to_numpy()
-    desc_tipo = pd.read_csv('color.csv', index_col=0 ).to_numpy()
-    desc_sabor = pd.read_csv('sabor.csv',  index_col=0).to_numpy()
-    desc_aroma = pd.read_csv('aroma.csv',  index_col=0).to_numpy()
-    desc_precio = pd.read_csv('precio.csv',index_col=0).to_numpy()
-    desc_guarda = pd.read_csv('guarda.csv',index_col=0).to_numpy()
+    desc_variedad = pd.read_csv('descriptores/variedad.csv', index_col=0).to_numpy()
+    desc_region = pd.read_csv('descriptores/region.csv',  index_col=0).to_numpy()
+    desc_tipo = pd.read_csv('descriptores/color.csv', index_col=0 ).to_numpy()
+    desc_sabor = pd.read_csv('descriptores/sabor.csv',  index_col=0).to_numpy()
+    desc_aroma = pd.read_csv('descriptores/aroma.csv',  index_col=0).to_numpy()
+    desc_precio = pd.read_csv('descriptores/precio.csv',index_col=0).to_numpy()
+    desc_guarda = pd.read_csv('descriptores/guarda.csv',index_col=0).to_numpy()
 
     dist_variedad = []
     dist_region = []
@@ -142,7 +142,7 @@ def obtener_recomendaciones(id):
     #Retornar los identificadores de los vinos a recomendar, mismos que servirán para recuperar información de la base de datos 
     return lista_ids
 
-# Funcion principal usada cuando recién el motor de recomendaciones es creado
+# Funcion principal usada cuando recién el motor de recomendaciones fue creado (No se usa desde la API)
 def funcion_main():
     # Abrir dataframe
     vinos_df = abrir_datafrane()    
