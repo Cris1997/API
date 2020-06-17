@@ -46,7 +46,7 @@ Con el fin de orientar más al usuario, la siguiente tabla proporciona una descr
 
 ## 4.- Uso de las operaciones
 
-Para probar que el API funciona adecuadamente se utilizó el programa Postman, que gracias a su interfaz permite corrobar que cada uno de los endpoint desempeña su función. Las siguientes capturas muestran 
+Para probar que el API funciona adecuadamente se utilizó el programa Postman, que gracias a su interfaz permite corrobar que cada uno de los endpoint desempeña su función. Las siguientes capturas muestran los resultados que deben mostrarse cuando se ejecutan las funciones con éxito.
 
 ### 4.1 .- Etiqueta de vino
 
@@ -68,6 +68,22 @@ Para probar que el API funciona adecuadamente se utilizó el programa Postman, q
 ### 4.3 .- Información de vinos 
 <p align = "center"> 
   <img src="https://github.com/Cris1997/GUIS/blob/master/endpoint4.png" height="600" width = "800">
+</p>
+
+## 5.- Ejemplos usados en el punto anterior
+
+Las siguientes dos imágenes corresponden a los ejemplos que se usaron para verificar la funcionalidad de los endpoint de etiqueta de vino y lista de vinos. Si deseas descargar alguno de los ejemplares, favor de dar clic sobre la imagen.
+
+<p align = "center">
+  <a href = "https://github.com/Cris1997/GUIS/blob/master/vinoDiablo.jpg">
+  <img src="https://github.com/Cris1997/GUIS/blob/master/vinoDiablo.jpg" height="600" width = "800">
+  </a>
+</p>
+
+<p align = "center">
+  <a href = "https://github.com/Cris1997/GUIS/blob/master/foto_menu.png">
+  <img src="https://github.com/Cris1997/GUIS/blob/master/foto_menu.png" height="600" width = "800">
+  </a>
 </p>
 
 
