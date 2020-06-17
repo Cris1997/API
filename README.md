@@ -17,9 +17,20 @@ En la siguiente tabla se describen brevemente los cuatro servicios que brinda el
 | Sistema de recomendacion  | Otorga como resultado una serie de recomendaciones solicitadas por la aplicación móvil (cliente), basándose en un vino que es proporcionado por esta última. |
 | Todos los vinos  | Como su nombre lo indica, proporciona a la parte del cliente toda la información de los vinos que se encuentran en la base de datos.  |
 
-## 2.- Uso de las operaciones
+## 2.- Especificación de las operaciones
 
-Esta apartado describe como usar cada una de las operaciones 
+  A lo largo de la implementación del API existen cuatro puntos donde se alojan los servicios que se describieron en el punto anterior. 
+  
+  ### 2.1 .- Carta de vinos
+  
+  |  | Tipo de operación |
+  | ------------- | ------------- |
+  
+  
+  
+  ### 2.2 .- Etiqueta de vino
+  ### 2.3 .- Carta de vinos
+  ### 2.4 .- Carta de vinos
 
 
 ## 3.- Descripción de los ficheros
@@ -32,4 +43,32 @@ Con el fin de orientar más al usuario, la siguiente tabla proporciona una descr
 | <a href ="https://github.com/Cris1997/API/blob/master/cartaocr.py">cartaocr.py</a>| Este programa contiene las funciones que modifican la fotografía y la ingresan al OCR para obtener el texto que se encuentra en ella.|
 | <a href ="https://github.com/Cris1997/API/blob/master/similitud_texto.py">similitud_texto.py</a>| A partir del texto obtenido del OCR, la función de este programa lo analiza y trata de encontrar las coincidencias con los vinos que se encuentran en el sistema.
 | <a href ="https://github.com/Cris1997/API/blob/master/sistema_recomendacion.py">sistema_recomendacion.py</a>|Ejecuta las operaciones necesarias con la información de los productos para generar recomendaciones.|
+
+## 4.- Uso de las operaciones
+
+Para probar que el API funciona adecuadamente se utilizó el programa Postman, que gracias a su interfaz permite corrobar que cada uno de los endpoint desempeña su función. Las siguientes capturas muestran 
+
+### 4.1 .- Etiqueta de vino
+
+<p align = "center"> 
+  <img src="https://github.com/Cris1997/GUIS/blob/master/endpoint1.png" height="600" width = "800">
+</p>
+
+### 4.2 .- Lista de vinos
+<p align = "center"> 
+  <img src="https://github.com/Cris1997/GUIS/blob/master/endpoint2.png" height="600" width = "800">
+</p>
+
+
+### 4.3 .- Obtención de recomendaciones
+<p align = "center"> 
+  <img src="https://github.com/Cris1997/GUIS/blob/master/endpoint3.png" height="600" width = "800">
+</p>
+
+### 4.3 .- Información de vinos 
+<p align = "center"> 
+  <img src="https://github.com/Cris1997/GUIS/blob/master/endpoint4.png" height="600" width = "800">
+</p>
+
+
 
