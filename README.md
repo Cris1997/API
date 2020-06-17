@@ -19,18 +19,16 @@ En la siguiente tabla se describen brevemente los cuatro servicios que brinda el
 
 ## 2.- Especificación de las operaciones
 
-  A lo largo de la implementación del API existen cuatro puntos donde se alojan los servicios que se describieron en el punto anterior. 
-  
-  ### 2.1 .- Carta de vinos
-  
-  |  | Tipo de operación |
-  | ------------- | ------------- |
+  A lo largo de la implementación del API existen cuatro puntos donde se alojan los servicios que se describieron en el punto anterior. En la siguiente tabla se muestran las rutas para cada función.
   
   
+  | Nombre | Tipo de operación | Endpoint | Argumentos|
+  | ------------- | ------------- | ------------- | ------------- |
+  | Carta de vinos | POST | http://198.168.1.70:4000/ocr | La fotografía del menú debe estár incluida en el cuerpo de la petición.|
+  | Etiqueta de vinos | POST | http://198.168.1.70:4000/clasificar | La fotografía de la etiqueta de vino debe estár incluida en el cuerpo de la petición.|
+  | Sistema de recomendación | GET | http://198.168.1.70:4000/recomendador?id=id_vino| El argumento id puede tener un valor que va desde 1 hasta 101, ya que este representa el identificador del vino.|
+  | Todos los vinos | GET | http://198.168.1.70:4000/allwines/  | -|
   
-  ### 2.2 .- Etiqueta de vino
-  ### 2.3 .- Carta de vinos
-  ### 2.4 .- Carta de vinos
 
 
 ## 3.- Descripción de los ficheros
