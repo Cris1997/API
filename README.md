@@ -79,7 +79,7 @@ Las siguientes dos imágenes corresponden a los ejemplos que se usaron para veri
   <img src="https://github.com/Cris1997/GUIS/blob/master/vinoDiablo.jpg" height="300" width = "250">
   </a>
 </p>
-<p align = "center>
+<p align = "center">
 Imagen 5.1. Ejemplo usado para probar la funcionalidad de etiqueta de vino            
 </p>
 
@@ -88,7 +88,7 @@ Imagen 5.1. Ejemplo usado para probar la funcionalidad de etiqueta de vino
   <img src="https://github.com/Cris1997/GUIS/blob/master/foto_menu.png" height="300" width = "250">
   </a>
 </p>
-<p align = "center>
+<p align = "center">
 Imagen 5.2. Ejemplo usado para probar la funcionalidad de lista de vinnos           
 </p>
 
